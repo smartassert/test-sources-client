@@ -32,7 +32,7 @@ readonly class SuiteClient
     {
         $request = $this->httpRequestFactory->createRequest(
             'POST',
-            $this->baseUrl . '/file-source'
+            $this->baseUrl . '/suite'
         );
 
         $body = http_build_query(['source_id' => $sourceId, 'label' => $label, 'tests' => $tests]);
