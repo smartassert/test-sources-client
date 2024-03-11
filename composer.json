@@ -75,7 +75,8 @@
         "phpstan/phpstan-phpunit": "^1.3",
         "phpunit/phpunit": "^10.5",
         "smartassert/test-authenticaton-provider-bundle": "^5.0",
-        "symfony/uid": "*"
+        "symfony/uid": "*",
+        "webignition/http-history-container": "^3.0"
     },
     "minimum-stability":"stable",
     "prefer-stable":true,
